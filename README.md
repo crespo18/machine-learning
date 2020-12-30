@@ -68,113 +68,221 @@ test score:  0.8066666666666666
 
 3、xgboost_model.py执行情况
 train_x:  (350, 140)
+
 test_x:  (150, 140)
+
 train_y:  (350,)
+
 test_y:  (150,)
 
+
 [0]     validation_0-auc:0.681743       validation_1-auc:0.469066
+
 [1]     validation_0-auc:0.787878       validation_1-auc:0.437079
+
 [2]     validation_0-auc:0.844001       validation_1-auc:0.418771
+
 [3]     validation_0-auc:0.885097       validation_1-auc:0.48085
+
 [4]     validation_0-auc:0.895577       validation_1-auc:0.445076
+
 [5]     validation_0-auc:0.905615       validation_1-auc:0.470118
+
 [6]     validation_0-auc:0.913852       validation_1-auc:0.485901
+
 [7]     validation_0-auc:0.915181       validation_1-auc:0.491582
+
 [8]     validation_0-auc:0.923713       validation_1-auc:0.503788
+
 [9]     validation_0-auc:0.928053       validation_1-auc:0.480008
+
 [10]    validation_0-auc:0.930355       validation_1-auc:0.495581
+
 [11]    validation_0-auc:0.936673       validation_1-auc:0.498527
+
 [12]    validation_0-auc:0.940039       validation_1-auc:0.479588
+
 [13]    validation_0-auc:0.944586       validation_1-auc:0.482534
+
 [14]    validation_0-auc:0.943965       validation_1-auc:0.482955
+
 [15]    validation_0-auc:0.948453       validation_1-auc:0.485059
+
 [16]    validation_0-auc:0.94928        validation_1-auc:0.477904
+
 [17]    validation_0-auc:0.951641       validation_1-auc:0.482534
+
 [18]    validation_0-auc:0.953177       validation_1-auc:0.491793
+
 [19]    validation_0-auc:0.955952       validation_1-auc:0.489268
+
 [20]    validation_0-auc:0.955834       validation_1-auc:0.4758
+
 [21]    validation_0-auc:0.957133       validation_1-auc:0.472012
+
 [22]    validation_0-auc:0.958786       validation_1-auc:0.474958
+
 [23]    validation_0-auc:0.958077       validation_1-auc:0.484217
+
 [24]    validation_0-auc:0.960262       validation_1-auc:0.494318
+
 [25]    validation_0-auc:0.961384       validation_1-auc:0.480008
+
 [26]    validation_0-auc:0.963805       validation_1-auc:0.485059
+
 [27]    validation_0-auc:0.964159       validation_1-auc:0.483375
+
 [28]    validation_0-auc:0.964277       validation_1-auc:0.481692
+
 [29]    validation_0-auc:0.965163       validation_1-auc:0.48085
+
 [30]    validation_0-auc:0.966403       validation_1-auc:0.49053
+
 [31]    validation_0-auc:0.966993       validation_1-auc:0.492635
+
 [32]    validation_0-auc:0.966285       validation_1-auc:0.492214
+
 [33]    validation_0-auc:0.967466       validation_1-auc:0.49979
+
 [34]    validation_0-auc:0.967702       validation_1-auc:0.493897
+
 [35]    validation_0-auc:0.968233       validation_1-auc:0.492635
+
 [36]    validation_0-auc:0.968351       validation_1-auc:0.503577
+
 [37]    validation_0-auc:0.96841        validation_1-auc:0.501473
+
 [38]    validation_0-auc:0.969946       validation_1-auc:0.493897
+
 [39]    validation_0-auc:0.969178       validation_1-auc:0.49516
+
 [40]    validation_0-auc:0.969296       validation_1-auc:0.494739
+
 [41]    validation_0-auc:0.970182       validation_1-auc:0.495581
+
 [42]    validation_0-auc:0.970713       validation_1-auc:0.493476
+
 [43]    validation_0-auc:0.970595       validation_1-auc:0.48548
+
+
 [44]    validation_0-auc:0.971127       validation_1-auc:0.489689
+
 [45]    validation_0-auc:0.971363       validation_1-auc:0.491793
+
 [46]    validation_0-auc:0.971422       validation_1-auc:0.496843
+
 [47]    validation_0-auc:0.971658       validation_1-auc:0.511574
+
 [48]    validation_0-auc:0.971894       validation_1-auc:0.505682
+
 [49]    validation_0-auc:0.971599       validation_1-auc:0.501473
+
 [50]    validation_0-auc:0.97213        validation_1-auc:0.496002
+
 [51]    validation_0-auc:0.972839       validation_1-auc:0.501052
+
 [52]    validation_0-auc:0.973607       validation_1-auc:0.50021
+
 [53]    validation_0-auc:0.973961       validation_1-auc:0.496423
+
 [54]    validation_0-auc:0.973547       validation_1-auc:0.488005
+
 [55]    validation_0-auc:0.973075       validation_1-auc:0.487584
+
 [56]    validation_0-auc:0.973016       validation_1-auc:0.485059
+
 [57]    validation_0-auc:0.97337        validation_1-auc:0.487584
+
 [58]    validation_0-auc:0.973016       validation_1-auc:0.488426
+
 [59]    validation_0-auc:0.973075       validation_1-auc:0.489268
+
 [60]    validation_0-auc:0.973311       validation_1-auc:0.487584
+
 [61]    validation_0-auc:0.974374       validation_1-auc:0.491372
+
 [62]    validation_0-auc:0.974079       validation_1-auc:0.486322
+
 [63]    validation_0-auc:0.974551       validation_1-auc:0.489268
+
 [64]    validation_0-auc:0.97461        validation_1-auc:0.493897
+
 [65]    validation_0-auc:0.974728       validation_1-auc:0.496002
+
 [66]    validation_0-auc:0.974965       validation_1-auc:0.49516
+
 [67]    validation_0-auc:0.974728       validation_1-auc:0.493897
+
 [68]    validation_0-auc:0.974846       validation_1-auc:0.49053
+
 [69]    validation_0-auc:0.974846       validation_1-auc:0.488005
+
 [70]    validation_0-auc:0.974965       validation_1-auc:0.492214
+
 [71]    validation_0-auc:0.974846       validation_1-auc:0.488426
+
 [72]    validation_0-auc:0.975024       validation_1-auc:0.488005
+
 [73]    validation_0-auc:0.975437       validation_1-auc:0.490109
+
 [74]    validation_0-auc:0.975555       validation_1-auc:0.490951
+
 [75]    validation_0-auc:0.975555       validation_1-auc:0.487163
+
 [76]    validation_0-auc:0.975496       validation_1-auc:0.489268
+
 [77]    validation_0-auc:0.975614       validation_1-auc:0.488005
+
 [78]    validation_0-auc:0.976027       validation_1-auc:0.488005
+
 [79]    validation_0-auc:0.975968       validation_1-auc:0.488005
+
 [80]    validation_0-auc:0.976027       validation_1-auc:0.487584
+
 [81]    validation_0-auc:0.976027       validation_1-auc:0.489268
+
 [82]    validation_0-auc:0.976264       validation_1-auc:0.483375
+
 [83]    validation_0-auc:0.976264       validation_1-auc:0.487163
+
 [84]    validation_0-auc:0.976205       validation_1-auc:0.488005
+
 [85]    validation_0-auc:0.976264       validation_1-auc:0.486742
+
 [86]    validation_0-auc:0.976323       validation_1-auc:0.479588
+
 [87]    validation_0-auc:0.976382       validation_1-auc:0.479588
+
 [88]    validation_0-auc:0.976264       validation_1-auc:0.48085
+
 [89]    validation_0-auc:0.976323       validation_1-auc:0.480008
+
 [90]    validation_0-auc:0.976441       validation_1-auc:0.482955
+
 [91]    validation_0-auc:0.9765 validation_1-auc:0.483375
+
 [92]    validation_0-auc:0.9765 validation_1-auc:0.486322
+
 [93]    validation_0-auc:0.9765 validation_1-auc:0.486742
+
 [94]    validation_0-auc:0.976441       validation_1-auc:0.487584
+
 [95]    validation_0-auc:0.976382       validation_1-auc:0.486322
+
 [96]    validation_0-auc:0.976441       validation_1-auc:0.486322
+
 [97]    validation_0-auc:0.9765 validation_1-auc:0.483375
+
 [98]    validation_0-auc:0.976529       validation_1-auc:0.487584
+
 [99]    validation_0-auc:0.976529       validation_1-auc:0.483796
+
 train:  0.92
+
 test:  0.82
+
 evaluate_result:
+ 
  {'validation_0': {'auc': [0.681743, 0.787878, 0.844001, 0.885097, 0.895577, 0.905615, 0.913852, 0.915181, 0.923713, 0.928053, 0.930355, 0.936673, 0.940039, 0.944586, 0.943965, 0.948453, 0.94928, 0.951641, 0.953177, 0.955952, 0.955834, 0.957133, 0.958786, 0.958077, 0.960262, 0.961384, 0.963805, 0.964159, 0.964277, 0.965163, 0.966403, 0.966993, 0.966285, 0.967466, 0.967702, 0.968233, 0.968351, 0.96841, 0.969946, 0.969178, 0.969296, 0.970182, 0.970713, 0.970595, 0.971127, 0.971363, 0.971422, 0.971658, 0.971894, 0.971599, 0.97213, 0.972839, 0.973607, 0.973961, 0.973547, 0.973075, 0.973016, 0.97337, 0.973016, 0.973075, 0.973311, 0.974374, 0.974079, 0.974551, 0.97461, 0.974728, 0.974965, 0.974728, 0.974846, 0.974846, 0.974965, 0.974846, 0.975024, 0.975437, 0.975555, 0.975555, 0.975496, 0.975614, 0.976027, 0.975968, 0.976027, 0.976027, 0.976264, 0.976264, 0.976205, 0.976264, 0.976323, 0.976382, 0.976264, 0.976323, 0.976441, 0.9765, 0.9765, 0.9765, 0.976441, 0.976382, 0.976441, 0.9765, 0.976529, 0.976529]}, 'validation_1': {'auc': [0.469066, 0.437079, 0.418771, 0.48085, 0.445076, 0.470118, 0.485901, 0.491582, 0.503788, 0.480008, 0.495581, 0.498527, 0.479588, 0.482534, 0.482955, 0.485059, 0.477904, 0.482534, 0.491793, 0.489268, 0.4758, 0.472012, 0.474958, 0.484217, 0.494318, 0.480008, 0.485059, 0.483375, 0.481692, 0.48085, 0.49053, 0.492635, 0.492214, 0.49979, 0.493897, 0.492635, 0.503577, 0.501473, 0.493897, 0.49516, 0.494739, 0.495581, 0.493476, 0.48548, 0.489689, 0.491793, 0.496843, 0.511574, 0.505682, 0.501473, 0.496002, 0.501052, 0.50021, 0.496423, 0.488005, 0.487584, 0.485059, 0.487584, 0.488426, 0.489268, 0.487584, 0.491372, 0.486322, 0.489268, 0.493897, 0.496002, 0.49516, 0.493897, 0.49053, 0.488005, 0.492214, 0.488426, 0.488005, 0.490109, 0.490951, 0.487163, 0.489268, 0.488005, 0.488005, 0.488005, 0.487584, 0.489268, 0.483375, 0.487163, 0.488005, 0.486742,0.479588, 0.479588, 0.48085, 0.480008, 0.482955, 0.483375, 0.486322, 0.486742, 0.487584, 0.486322, 0.486322, 0.483375, 0.487584, 0.483796]}}
 
 
