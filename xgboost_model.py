@@ -26,6 +26,9 @@ class XgboostModel():
     def train_model(self, train_x, test_x, train_y, test_y):
         clf = xgb.XGBClassifier(silent = 0, learning_rate = 0.3, min_child_weight = 5, max_depth = 6, gamma = 0, subsample = 1, max_delta_step = 0, colsample_bytree = 1, reg_lambda = 1, n_estimators = 100, seed = 1000)
         clf.fit(train_x, train_y, eval_set=[(train_x, train_y),(test_x, test_y)],eval_metric = 'auc', verbose = True)
+        
+        #保存模型
+        clf.save_model('MODEL_FILE/xgb.model')
         return(clf)
 
     def evaluate_model(self, clf, train_x, train_y, test_x, test_y):
@@ -33,6 +36,14 @@ class XgboostModel():
         print('train: ', clf.score(train_x, train_y))
         print('test: ', clf.score(test_x, test_y))
         return(evaluate_result)
+   
+    #加载模型
+    def load_model(self, file, test_x):
+        clf = xgb.XGBClassifier()
+        clf.load_model(file)
+        predict_result = clf.predict_proba(test_x)
+        print('predict_result.shape:\n', predict_result.shape)
+        print(predict_result)
 
 
 if __name__ == '__main__':
@@ -43,3 +54,4 @@ if __name__ == '__main__':
     clf = my_xgboost_model.train_model(train_x, test_x, train_y, test_y)
     evals_result = my_xgboost_model.evaluate_model(clf, train_x, train_y, test_x, test_y)
     print('evaluate_result:\n', evals_result)
+    my_xgboost_model.load_model('MODEL_FILE/xgb.model',test_x)
